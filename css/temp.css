@@ -1,0 +1,57 @@
+
+/* About Us and Contact Styles */
+#about, #contact {
+    padding: 50px;
+    text-align: center;
+}
+
+#about h2, #contact h2 {
+    font-size: 2.5em;
+}
+
+#about p, #contact p {
+    font-size: 1.2em;
+}
+
+/* Quiz Section Styles */
+#quizzes {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f9;
+}
+
+.quiz-categories {
+    margin-bottom: 20px;
+}
+
+.quiz-categories button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.quiz-categories button:hover {
+    background-color: #0056b3;
+}
+
+#quiz-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.option {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+}

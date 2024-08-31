@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrainBites</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="flex items-center justify-between p-3">
+        <div class="logo">
+            <p class="font-[600] text-[25px]">BrainBites</p>
+        </div>
+        <nav class="flex gap-5 font-semibold">
+                <a href="/">Home</a>
+                <a href="/about.html">About Us</a>
+                <a href="/contact.html">Contact</a>
+                <a href="/quiz.html">Quizzes</a>
+        </nav>
+    </header>
+    
+    <section id="home" class="home w-full  flex">
+        <div class="w-[50%] flex flex-col items-center justify-center h-full p-5">
+            <div class="flex flex-col items-start">
+                <h1 class="text-[60px]">Brain <span class="text-[#444281]">Bites</span></h1>
+                <p class="text-lg mb-6">Welcome to BrainBites! Test your knowledge with our fun quizzes.</p>
+                <a href="quiz.html" class="bg-[#444281] text-white py-2 px-4 rounded hover:bg-[#444281] transition">Start Quiz</a>
+            </div>
+        </div>
+        <div class="logo w-[50%] flex justify-center items-center h-full p-5">
+            <img src="/public/undraw_quiz_re_aol4.svg" alt="Quiz Illustration" width="300" height="300">
+        </div>
+    </section>
+    <footer class=" bg-black p-1">
+        <p class="text-center text-white rubik">Copyright @ sneha - 2024</p>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script src="quiz.js"></script>
+</body>
+</html>
